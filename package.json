@@ -1,0 +1,27 @@
+{ "name" :            "mql"
+, "description" :     "A SQL like query language for MongoDB"
+, "keywords" :        ["mongodb", "mongo", "driver", "db", "sql"]
+, "version" :         "0.0.1"
+, "author" :          "Christian Amor Kvalheim <christkv@gmail.com>"
+, "contributors" :  []
+, "repository" :    { "type" :  "git"
+                    , "url" :   "http://github.com/christkv/node-mongodb-native.git" }
+, "bugs" :          { "mail" :  "node-mongodb-native@googlegroups.com"
+                    , "url" :   "http://github.com/christkv/node-mongodb-native/issues" }
+, "os" :            [ "linux"
+                    , "darwin"
+                    , "freebsd" ]
+, "dependencies": {
+    "mongodb": "0.9.8"
+  }
+, "devDependencies": {
+      "nodeunit": "0.6.4"
+    , "gleak": "0.2.2"
+    , "pegjs": "0.6.2"
+  }
+, "main":             "./lib/mql/index"
+, "directories" :   { "lib" : "./lib/mql" }
+, "engines" :       { "node" : ">=0.4.0" }
+, "licenses" :    [ { "type" :  "Apache License, Version 2.0"
+                    , "url" :   "http://www.apache.org/licenses/LICENSE-2.0" } ]
+}

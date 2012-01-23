@@ -13,13 +13,13 @@ variable
   = identifierName
 
 select
-  = "SELECT" whitespace (variable) whitespace from whitespace where
+  = [sS][eE][lL][eE][cC][tT] whitespace (variable) whitespace from whitespace where
 
 from
-  = "FROM" whitespace (variable)
+  = [fF][rR][oO][mM] whitespace (variable)
 
 where
-  = "WHERE" whitespace expr_list
+  = [wW][hH][eE][rR][eE] whitespace expr_list
 
 expr_list
   = (and)+ /
